@@ -6,6 +6,7 @@
     {
       'target_name': 'glew_shared',
       'type': 'shared_library',
+      'product_name': 'glew',
       'direct_dependent_settings': {
         'include_dirs': [
           'glew-1.9.0/include/',
