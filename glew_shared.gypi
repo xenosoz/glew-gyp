@@ -19,7 +19,7 @@
         '_MBCS',
       ],
       'libraries': [
-        'opengl32.lib',
+        '-lopengl32.lib',
       ],
       'sources': [
         'glew-1.9.0/build/glew.rc',
