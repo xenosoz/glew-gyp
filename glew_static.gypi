@@ -11,6 +11,9 @@
         'include_dirs': [
           'glew-1.9.0/include/',
         ],
+        'defines': [
+          'GLEW_STATIC',
+        ],
       },
       'defines': [
         'WIN32',
